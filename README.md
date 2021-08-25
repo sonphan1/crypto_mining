@@ -1,4 +1,4 @@
-# Son's Ethermining setup using PheonixMiner :D
+# Son's Ethermining setup using PhoenixMiner :D
 
 ## Versions
       Python 3.8
@@ -21,7 +21,7 @@
 
 ## References
 1. https://www.reddit.com/r/EtherMining/comments/ksu60b/psa_to_the_new_miners_using_phoenixminer/
-2. The official pheonix miner download that is inside this repo [Pheonix miner 5.7b](https://bitcointalk.org/index.php?topic=2647654.0)
+2. The official Phoenix miner download that is inside this repo [Phoenix miner 5.7b](https://bitcointalk.org/index.php?topic=2647654.0)
 
 
 ## Future Considerations
