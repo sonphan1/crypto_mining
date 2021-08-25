@@ -1,2 +1,4 @@
 /.idea
 */log*.txt
+*/crypto_mining.egg-info/*
+

@@ -4,22 +4,29 @@
       Python 3.8
       PhoenixMiner 5.7b
 
+## Getting Started
+1. Install latest version of Python 3.8 from python website below
+   1. https://www.python.org/downloads/release/python-380/
+1. Update pip and install [requirements.txt](requirements.txt) file
+      
+
+      pip install --upgrade pip
+      pip install -r requirements.txt
 
 ## How it works
 1. Since I'm mining ethereum, I chose to go with the ethermine pool. You can update the .bat file to leverage any other pool you would rather mine with
    1. Reference to my mining rig's performance
       1. https://ethermine.org/miners/0620d26D5dDe3Ec053aA0ac49404EFcc8555A4A3/dashboard
-   
-1. Python executing the [ether_mining_start.py](ether_mining_start.py) script, it will automatically start the start_miner - Shortcut script inside the phoenix miner
-2. Python executing the [ether_mining_stop.py](ether_mining_stop.py) script will stop the mining
+1. Python executing the [ether_mining_start.py](python/ether_mining_start.py) script, it will automatically start the start_miner - Shortcut script inside the phoenix miner
+2. Python executing the [ether_mining_stop.py](python/ether_mining_stop.py) script will stop the mining
 
 ## Scripts to modify
 1. Modify the [start_miner.bat](/PhoenixMiner_5.4c_Windows/start_miner.bat)
     1. update the target wallet (the guid after -wal) location to personal wallet. or you can leave it and it'll mine to my location :D
-2. Execute the [ether_mining_start.py](ether_mining_start.py)
+2. Execute the [ether_mining_start.py](python/ether_mining_start.py)
 
 ## Scheduling
-1. You can then schedule the [ether_mining_start.py](ether_mining_start.py) and [ether_mining_stop.py](ether_mining_stop.py) via task scheduler
+1. You can then schedule the [ether_mining_start.py](python/ether_mining_start.py) and [ether_mining_stop.py](python/ether_mining_stop.py) via task scheduler
    1. You can reference this picture below on using python to execute the python script inside the local directory
    2. ![task scheduler](https://github.com/sonphan1/crypto_mining/blob/master/reference/schedule%20etherminer.png)
 

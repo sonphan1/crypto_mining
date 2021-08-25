@@ -1,0 +1,7 @@
+comtypes
+pywin32
+pywinauto
+six
+
+[:python_version >= "3.8"]
+importlib

@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+crypto_mining.egg-info/PKG-INFO
+crypto_mining.egg-info/SOURCES.txt
+crypto_mining.egg-info/dependency_links.txt
+crypto_mining.egg-info/requires.txt
+crypto_mining.egg-info/top_level.txt
+python/__init__.py
+python/ether_mining_start.py
+python/ether_mining_stop.py
