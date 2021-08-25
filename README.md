@@ -24,6 +24,6 @@
 2. The official pheonix miner download that is inside this repo [Pheonix miner 5.7b](https://bitcointalk.org/index.php?topic=2647654.0)
 
 
-##Future Considerations
+## Future Considerations
 - When updating to new version of PhoenixMiner, ensure to update [start_miner.bat](/PhoenixMiner_5.4c_Windows/start_miner.bat) and create shortcut of the [start_miner.bat](/PhoenixMiner_5.4c_Windows/start_miner.bat) file
 
