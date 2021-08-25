@@ -4,6 +4,8 @@ import subprocess
 import sys
 
 def get_max_phoenix_version(directory=os.getcwd()):
+
+    print('listing directorys in', directory)
     dir_path_list = os.listdir(directory)
     # https://stackoverflow.com/questions/3416401/removing-elements-from-a-list-containing-specific-characters
     phoenix_lists = [path for path in dir_path_list if "PhoenixMiner" in path]
@@ -18,6 +20,8 @@ def main():
     file = 'start_miner - Shortcut'
     windows = Desktop(backend="uia").windows()
     cur_dir = os.getcwd()
+    if 'python' in cur_dir:
+        cur_dir = cur_dir.replace('python','')
     print('cur_dir', cur_dir)
     sys.path += [cur_dir]
 
