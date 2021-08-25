@@ -1,18 +1,19 @@
 # Son's Ethermining setup using PhoenixMiner :D
 
 ## Versions
-      Python 3.8
-      PhoenixMiner 5.7b
-
+```
+Python 3.8
+PhoenixMiner 5.7b
+```
 ## Getting Started
 1. Install latest version of Python 3.8 from python website below
    1. https://www.python.org/downloads/release/python-380/
 1. Update pip and install [requirements.txt](requirements.txt) file
-      
-
-      pip install --upgrade pip
-      pip install -r requirements.txt
-
+     
+```     
+pip install --upgrade pip
+pip install -r requirements.txt
+```
 ## How it works
 1. Since I'm mining ethereum, I chose to go with the ethermine pool. You can update the .bat file to leverage any other pool you would rather mine with
    1. Reference to my mining rig's performance
