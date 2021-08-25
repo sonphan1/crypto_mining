@@ -17,7 +17,7 @@
 ## Scheduling
 1. You can then schedule the [ether_mining_start.py](ether_mining_start.py) and [ether_mining_stop.py](ether_mining_stop.py) via task scheduler
    1. You can reference this picture below on using python to execute the python script inside the local directory
-   2. ![](PhoenixMiner_5.4c_Windows/reference/schedule etherminer.png)
+   2. ![task scheduler](reference/schedule etherminer.png)
 
 ## References
 1. https://www.reddit.com/r/EtherMining/comments/ksu60b/psa_to_the_new_miners_using_phoenixminer/
