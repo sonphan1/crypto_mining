@@ -23,7 +23,8 @@ pip install -r requirements.txt
 
 ## Scripts to modify
 1. Modify the [start_miner.bat](/PhoenixMiner_5.4c_Windows/start_miner.bat)
-    1. update the target wallet (the guid after -wal) location to personal wallet. or you can leave it and it'll mine to my location :D
+   1. update the target wallet (the guid after the -wal param should be your public ethereum address) location to personal wallet. or you can leave it and it'll mine to my location :D
+   1. you can create a wallet using https://www.myetherwallet.com/
 2. Execute the [ether_mining_start.py](python/ether_mining_start.py)
 
 ## Scheduling
