@@ -19,7 +19,13 @@ pip install -r requirements.txt
    1. Reference to my mining rig's performance
       1. https://ethermine.org/miners/0620d26D5dDe3Ec053aA0ac49404EFcc8555A4A3/dashboard
 1. Python executing the [ether_mining_start.py](python/ether_mining_start.py) script, it will automatically start the start_miner - Shortcut script inside the phoenix miner
-2. Python executing the [ether_mining_stop.py](python/ether_mining_stop.py) script will stop the mining
+```     
+python python/ether_mining_start.py
+```
+3. Python executing the [ether_mining_stop.py](python/ether_mining_stop.py) script will stop the mining
+```     
+python python/ether_mining_stop.py
+```
 
 ## Scripts to modify
 1. Modify the [start_miner.bat](/PhoenixMiner_5.4c_Windows/start_miner.bat)
