@@ -11,6 +11,8 @@ PhoenixMiner 5.7b
 1. Update pip and install [requirements.txt](requirements.txt) file
      
 ```     
+# change into local directory 
+cd C:\Users\Lance-PC\Desktop\github\crypto_mining\
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
