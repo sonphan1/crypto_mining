@@ -36,6 +36,11 @@ python python/ether_mining_stop.py
 ## Scheduling
 1. You can then schedule the [ether_mining_start.py](python/ether_mining_start.py) and [ether_mining_stop.py](python/ether_mining_stop.py) via task scheduler
    1. You can reference this picture below on using python to execute the python script inside the local directory
+```
+# get location of python exe on local machine
+import sys
+print(sys.executable)
+```
    2. ![task scheduler](https://github.com/sonphan1/crypto_mining/blob/master/reference/schedule%20etherminer.png)
 
 ## References
