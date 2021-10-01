@@ -54,3 +54,4 @@ print(sys.executable)
 ## Future Considerations
 - When updating to new version of PhoenixMiner, ensure to update [start_miner.bat](/PhoenixMiner_5.4c_Windows/start_miner.bat) and create shortcut of the [start_miner.bat](/PhoenixMiner_5.4c_Windows/start_miner.bat) file
 
+C:\Users\Lance-PC\AppData\Local\Programs\Python\Python38-32\python.exe C:\Users\Lance-PC\Desktop\github\crypto_mining\python\ether_mining_stop.py
