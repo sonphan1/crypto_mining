@@ -2,11 +2,11 @@
 
 ## Versions
 ```
-Python 3.8
-PhoenixMiner 5.7b
+Python 3.10
+PhoenixMiner 5.4c
 ```
 ## Getting Started
-1. Install latest version of Python 3.8 from python website below
+1. Install latest version of Python 3.10 from python website below
    1. https://www.python.org/downloads/release/python-380/
 1. Update pip and install [requirements.txt](requirements.txt) file
      
@@ -41,8 +41,9 @@ python python/ether_mining_stop.py
 ## Scheduling
 1. You can then schedule the [ether_mining_start.py](python/ether_mining_start.py) and [ether_mining_stop.py](python/ether_mining_stop.py) via task scheduler
    1. You can reference this picture below on using python to execute the python script inside the local directory
-      1. Start in: Location of the 5.4C folder
-      2. execute .py scrip
+      1. Program\Script: C:\Users\lance-miner\AppData\Local\Programs\Python\Python310\python.exe
+      2. Start in: C:\Users\lance-miner\PycharmProjects\crypto_mining\python
+      3. Add arguments: ether_mining_start.py
 ```
 # get location of python exe on local machine
 import sys
