@@ -24,8 +24,10 @@ pip install -r requirements.txt
 ```     
 python python/ether_mining_start.py
 ```
-3. Python executing the [ether_mining_stop.py](python/ether_mining_stop.py) script will stop the mining
-```     
+3. Go into the 5.4C Folder and python execute the [ether_mining_stop.py](python/ether_mining_stop.py) script will stop the mining
+
+```
+cd C:\Users\lance-miner\PycharmProjects\crypto_mining\PhoenixMiner_5.8c_Windows     
 python python/ether_mining_stop.py
 ```
 
@@ -39,6 +41,8 @@ python python/ether_mining_stop.py
 ## Scheduling
 1. You can then schedule the [ether_mining_start.py](python/ether_mining_start.py) and [ether_mining_stop.py](python/ether_mining_stop.py) via task scheduler
    1. You can reference this picture below on using python to execute the python script inside the local directory
+      1. Start in: Location of the 5.4C folder
+      2. execute .py scrip
 ```
 # get location of python exe on local machine
 import sys
