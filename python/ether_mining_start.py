@@ -32,8 +32,11 @@ def main():
     else:
         # https://stackoverflow.com/questions/204017/how-do-i-execute-a-program-from-python-os-system-fails-due-to-spaces-in-path
         # C:/Users/Lance-PC/Desktop/github/crypto_mining/PhoenixMiner_5.7b_Windows/PhoenixMiner_5.7b_Windows/start_miner.bat
-        # filepath = 'C:/Users/Lance-PC/Desktop/github/crypto_mining/PhoenixMiner_5.7b_Windows/start_miner.bat'
+        # filepath = 'C:/Users/lance-miner/PycharmProjects/crypto_mining/PhoenixMiner_5.8c_Windows/start_miner - Shortcut'
         filepath = os.path.join(cur_dir, miner_version, file)
+        miner_dir = os.path.join(cur_dir, miner_version)
+        print("changing dir to {}".format(miner_dir))
+        os.chdir(miner_dir)
         print("not active, starting {}".format(filepath))
         os.startfile(filepath)
 
